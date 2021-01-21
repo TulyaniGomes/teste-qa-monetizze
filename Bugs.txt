@@ -1,0 +1,31 @@
+Cenario - Loja
+
+Bug 1: Sempre que clica em comprar nos produtos, seja na  home ou na seção de vinhos no carrinho exibe os dois produtos do catálogo na quantidade 1 para cada.
+
+Bug 2: Não é possível excluir produto do carrinho. O botão  não funciona.
+
+Bug 3: Após alterado a quantidade de itens no carrinho o valor total dos itens não são atualizados automaticamente e não tem um botão que a pessoa clique para que seja feita essa atualização. 
+
+Bug 4: Nos detalhes do vinho mesmo que coloque mais que uma quantidade no carrinho sempre exibe uma quantidade de cada item .
+
+Bug 5: Na tela de detalhes da compra os itens exibidos não se refere aos vinhos da tela anterior, logo os valores também não corresponde.
+
+Bug 6: No carrinho o valor total dos produtos não está calculado corretamente conforme o valor dos itens.
+
+Bug 7: Na tela de detalhes da compra não está realizando validação quanto aos campos CEP, email e telefone. Recebendo assim qualquer valor.
+
+Bug 8: Os campos País, Apartamento  e detalhes adicionais não estão como obrigatórios no detalhes da compra. 
+
+Bug 9: Quando acessado os detalhes do vinho Trius cabernet france 2009 a nomenclatura na parte superior do vinho esta como Trius cabernet france 2011.
+
+Bug 10: O Trius cabernet france 2011 exibe valores diferentes. No home 59,00 ao passar o mouse na mesma tela exibe o valor de 629,00 no carrinho e na seção de vinhos está no valor de 55,00.
+
+Bug 11: No home quando clica em Ver todos os produtos permanece na tela de home não direcionando para o catálogo de vinhos.
+
+Cenário - Contato
+
+Bug 12 - Ao clicar em enviar a mensagem não é exibido mensagem de sucesso. Mas sim uma mensagem de erro 405.
+
+Bug 13 - Não realiza a validação do campo e-mail e telefone na tela de contato.
+
+

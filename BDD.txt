@@ -1,0 +1,18 @@
+Cenário 1 - Loja
+    Given acessei o "http://monetizzetesteqa.s3-website-us-east-1.amazonaws.com/"
+    When na tela de home passo o mouse em "Trius Cabernet France 2009"
+    And clico em comprar
+    And Altero a quantidade do produto no carrinho
+    And o valor total do produto e total da compra é alterado de acordo com a quantidade de produto
+    And clico em prosseguir
+    And preencho os campos de detalhe da compra
+    And clico em Finalizar
+    Then a compra é concluída
+    And é exibido a mensagem Obrigado!
+
+
+Cenário 2 - Contato
+    Given acessei o "http://monetizzetesteqa.s3-website-us-east-1.amazonaws.com/"
+    When clico em contato
+    And preencho os campos obrigatórios
+    Then é exibido mensagem de sucesso ao enviar a mensagem
